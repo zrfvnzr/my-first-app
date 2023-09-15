@@ -1,0 +1,10 @@
+<button (click)="toggleShownAndLog()">Toggle Display Details</button>
+<p *ngIf="isShown">Hello world!</p>
+<p>Logs:</p>
+<ul>
+    <li *ngFor="let log of logs">
+        <span [ngStyle]="{backgroundColor: log >= 5 ? 'blue' : none}" [ngClass]="{'color-white': log >= 5}">
+            Toggled {{ log }} time{{ log > 1 ? 's' : '' }}
+        </span>
+    </li>
+</ul>

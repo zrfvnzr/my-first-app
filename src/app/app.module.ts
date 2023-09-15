@@ -7,6 +7,7 @@ import { AttributeSelectorComponent } from './server/attributeSelector.component
 import { ServerComponent } from './server/server.component';
 import { ClassSelectorComponent } from './server/classSelector.component';
 import { MyFormComponent } from './my-form/my-form.component';
+import { AssignmentThreeComponent } from './assignment-three/assignment-three.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { MyFormComponent } from './my-form/my-form.component';
     AttributeSelectorComponent,
     ClassSelectorComponent,
     MyFormComponent,
+    AssignmentThreeComponent,
   ],
   imports: [
     BrowserModule,
